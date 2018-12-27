@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    background-color:whitesmoke;
+}
+
+/* Style navigation */
+.navi {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:grey;
+    overflow-x: hidden;
+}
+
+/* Side navigation POUR LES LIEN */
+.navi a {
+    color:beige;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Changement DE COULEUR au survol  */
+.navi a:hover {
+    background-color:blue;
+    color: beige;
+}
+
+/* Style du contenu */
+.contenu {
+    margin-left: 185px;
+    padding-left: 20px;
+   }
+h1{
+    position: absolute;
+    color:midnightblue;
+    top: 250px;
+    left:650px;
+
+}
+h3{
+    color: midnightblue;
+    font-family: "Times New Roman";
+    left: 30px;
+}
+
+.expli{
+    position: absolute;
+    left: 450px;
+    top: 0px;
+}
+
+/* pour animation hd
+ #myDIV {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background: red;
+     -webkit-animation: mymove 5s infinite; Chrome, Safari, Opera
+     animation: mymove 5s infinite;
+ }
+
+
+ Chrome, Safari, Opera
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+ Standard syntax
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+*/

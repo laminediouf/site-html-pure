@@ -1,0 +1,21 @@
+div.galeri {
+     margin: 5px;
+     border: 1px solid blue;
+     float: left;
+     width: 180px;
+ }
+
+div.galeri:hover {
+    border: 1px solid #777;
+}
+
+div.galeri img {
+    width: 100%;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+    color: midnightblue;
+}
