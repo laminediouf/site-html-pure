@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  	
+ 		<!-- En-tête du document  -->
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 
+	  <meta name="title" content="Titre de la page" />
+	  <meta name="description" content="description de la page"/>
+	  <meta name="keywords" content="mots-clé1, mots-clé2, ..."/>
+	 
+	  <!-- Indexer et suivre -->
+	  <meta name="robots" content="index,follow" />
+ 
+	<head>
+ 
+	<body>
+ 
+	  <!-- CORPS DE LA PAGE  -->
+
+	  <blockquote>
+	  	
+	  	<center> 
+                  	<img src="images.jpg" >  
+					<img src="66575065-html5-text-rubber-seal-stamp-watermark-caption-inside-rectangular-shape-with-grunge-design-and-scrat.jpg" width="100%" height="20">
+				</center>
+
+	  	<center>
+				<div>
+			  		<p>
+				  		<button><a href="html5.html">Accueil</a></button>&nbsp;&nbsp;&nbsp;
+				  		<button><a href="header.html">En-tête de page (header)</a></button>&nbsp;&nbsp;&nbsp;
+				  		<button><a href="body.html">Corps de page (Body)</a></button>&nbsp;&nbsp;&nbsp;
+				  		<button><a href="footer.html">Pied de page (Footer)</a></button>&nbsp;&nbsp;&nbsp;
+			  		</p>
+				</div>
+			</center>
+
+
+	  	<h1>La balise head</h1>
+	  	<p>
+	  		La balise HEAD est un élément structurel (au même titre que HTML ou BODY) d'un document html. Il contient d'une part le titre du document (inclu dans la balise TITLE), mais également les déclarations comme la feuille de style ou les divers meta tags et également les fonctions javascript.<br/>
+			Les fonctions javascript peuvent aussi être stockées dans un fichier autonome portant l'extension .js qui sera déclaré dans la partie HEAD du document. 
+	  	</p>
+
+
+	  	<div>
+		  	<p>
+		  		<li><a href="#meta">meta</a></li>
+		  		<li><a href="#title">title</a></li>
+		  		<li><a href="#base">base</a></li>
+		  		<li><a href="#link">link</a></li>
+		  		<li><a href="#style">style</a></li>
+		  		<li><a href="#script">script</a></li>
+		  		<li><a href="#noscript">noscript</a></li>
+		  	</p>
+	  </div>
+
+	  	<center>
+	  		<table border="1" bgcolor="#F0F4F4">
+			<tr>
+				<th>Elément ou balise</th>
+				<th>Sens sémantique</th>
+			</tr>
+			<tr>
+				<td id="meta"><blockquote><b>&lt; meta &gt;</b></blockquote></td>
+				<td>
+				<blockquote><p>Les balises META servent à placer des métadonnées (metadata) dans une page HTML. <br/>
+				On placera ces informations dans l’élément head, et elles ne seront pas affichées sur la page.</p>
+				<p>À qui sont destinées ces informations? Eh bien, à tous les outils susceptibles de les exploiter. Et notamment:<br/>
+	 				<li>aux navigateurs web </li>
+	 				<li>aux moteurs de recherche; </li>
+	 				<li>plus largement, à tous les outils d’indexation, c’est-à-dire tous les outils <br/>
+	 				qui analysent vos pages pour y identifier diverses informations.</li>
+ 				</p></blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="title"><blockquote><b>&lt; title &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>Le contenu de cet élément n’apparait pas directement dans la page, mais est utilisé de diverses manières:</p>
+	 				<li>par le navigateur web, dans le titre de la fenêtre, les onglets, comme titre des marque-pages (favoris), etc.;</li>
+	 				<li>par les moteurs de recherche et divers outils, comme titre d’un résultat de recherche par exemple.</li>
+ 					</p>
+ 					<p>Cet élément est par ailleurs obligatoire en HTML.</p>
+ 					<p>Enfin, notez que son importance pour le référencement des pages est primordiale. Un élément title bien rédigé devrait, dans l’idéal:
+ 					<li>être lisible pour un lecteur humain,</li>
+	 				<li>être informatif ou attrayant pour un lecteur humain,</li>
+	 				<li>refléter le contenu de la page,</li>
+	 				<li>contenir des mots-clé pertinents,</li>
+	 				<li>faire moins de 70 caractères (pas une règle absolue, mais Google par exemple coupe les titres trop longs <br/>
+	 				entre 65 et 70 caractères dans les pages de résultat, et les titres trop longs diluent le poids des différents mots-clé).</li>
+ 					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="base"><blockquote><b>&lt; base &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>
+						La balise <b>&lt; base &gt;</b> spécifie l’URL de base ou l’URL cible pour toutes les URL relative dans un document.<br/>
+
+						Il ne peut y avoir qu’au maximum un SEUL élément <b>&lt; base &gt;</b> dans un document, et il doit être à l’intérieur de l’élément <b>&lt; head &gt;</b>.<br/>
+						La balise <b>&lt; base &gt;</b> prend en charge tous les attributs standard en HTML5.
+ 					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="link"><blockquote><b>&lt; link &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>
+						Dans la majorité des cas, une balise <b>&lt; link &gt;</b> placée dans l'en-tête permet de mettre en <br/>
+						relation la page avec d'autres documents externes. La plupart du temps cela concerne les feuilles de style <br/>
+						CSS externes avec une relation du type stylesheet, mais il est aussi possible de définir d'autres types de <br/>
+						relations (par exemple avec <b>author</b>, <b>icon</b>, <b>prefetch</b>, <b>next</b>, <b>prev</b>, etc).
+					</p>
+					<p>En HTML5, il n'est plus strictement obligatoire de spécifier l'attribut type.</p>
+					<p>
+					Pour inclure directement des instructions CSS dans le document HTML sans passer par un fichier externe,<br/>
+					<b>&lt; style &gt;</b> est à votre service. Cependant, il vaut mieux faire confiance à un fichier indépendant :<br/>
+					il n'y aura qu'un seul code à maintenir pour de multiples pages (voire pour tout le site), et la mise en cache <br/>
+					par le navigateur n'en sera que plus efficace.
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="style"><blockquote><b>&lt; style &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>
+						L'élément HTML <b>< style ></b> contient des informations de mise en forme pour un document ou une partie d'un <br/>  document. Par défaut, les instructions de mise en forme écrites dans cet élément sont écrites en CSS.
+ 					</p>
+ 				</blockquote>
+				</td>
+			<tr>
+				<td id="script"><blockquote><b>&lt; script &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>Cet élément permet d'ajouter des scripts (JavaScript) qui vont s'éxécuter côté client dans le navigateur<br/>
+					 dès leur chargement.</p>
+					 <p>
+					 	En HTML5, il n'est plus obligatoire de spécifier l'attribut type. Celui-ci est de toute manière interprété<br/>
+					 	 par défaut en text/javascript par tous les navigateurs.
+					 </p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="noscript"><blockquote><b>&lt; noscript &gt;</b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>
+						L'élément HTML <b>&lt; noscript &gt;</b> définit un fragment HTML qui doit être affiché si les fonctionnalités de <br/> script ne sont pas prises en charge ou si elles sont désactivées.<br/>
+ 					</p>
+ 					<p>
+ 						Cette dernière contient un message à afficher si le script n'est pas supporté. Vous n'est pas obligé <br/> de mettre cette balise.
+ 					</p>
+ 				</blockquote>
+				</td>
+			<tr>
+		</table>
+	  	</center>
+	
+
+		
+
+ 	</blockquote>
+	</body>
+
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  	
+ 		<!-- En-tête du document  -->
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 
+	  <meta name="title" content="Titre de la page" />
+	  <meta name="description" content="description de la page"/>
+	  <meta name="keywords" content="mots-clé1, mots-clé2, ..."/>
+	 
+	  <!-- Indexer et suivre -->
+	  <meta name="robots" content="index,follow" />
+ 
+	<head>
+ 
+	<body>
+ 
+	  <!-- CORPS DE LA PAGE  -->
+
+	  <blockquote>
+	  	
+	  	<center> 
+                  	<img src="images.jpg" >  
+					<img src="66575065-html5-text-rubber-seal-stamp-watermark-caption-inside-rectangular-shape-with-grunge-design-and-scrat.jpg" width="100%" height="20">
+				</center>
+
+	  	<center>
+	  		<div>
+		  		<p>
+			  		<button><a href="html5.html">Accueil</a></button>&nbsp;&nbsp;&nbsp;
+				  	<button><a href="header.html">En-tête de page (header)</a></button>&nbsp;&nbsp;&nbsp;
+				 	<button><a href="body.html">Corps de page (Body)</a></button>&nbsp;&nbsp;&nbsp;
+				  	<button><a href="footer.html">Pied de page (Footer)</a></button>&nbsp;&nbsp;&nbsp;
+		  		</p>
+	  		</div>
+	  	</center>
+
+	  	<h1>Corps d’un document HTML5</h1>
+	  	<p>
+	  		Après avoir détaillé l’en-tête situé entre les balise <b>< head ></b> et <b>< / head ></b>, intéressons-nous au corps de notre page web. Ce sujet étant si vaste que le reste de la page y sera dédiée.<br/>
+
+			Représentée entre les balises <b>< body ></b> et <b>< / body ></b>, vous placerez tout le contenu de votre page web à l’intérieur de celle-ci. Contrairement à l’en-tête, le corps du document s’affichera sur le navigateur de vos visiteurs.<br/>
+
+			L’élément <b>< body ></b> contient tous les contenus d’un document HTML5, comme du texte, des hyperliens, des images, tableaux, listes, etc …<br/>
+
+			Elle prend en charge tous les attributs standard et les attributs d’événement HTML5..
+	  	</p>
+
+	  	<h2>Évolution par rapport au HTML 4.01</h2>
+	  	<p>
+	  		En HTML5, tous les attributs spécifiques de la balise <b>< body ></b> sont supprimés, tandis qu’en HTML 4.01, ils étaient seulement déconseillées.
+	  	</p>
+
+
+	  	<div>
+		  	<p>
+		  		<li><a href="#heading">heading (h)</a></li>
+		  		<li><a href="#paragraphe">paragraphe(p)</a></li>
+		  		<li><a href="#ahref"> a </a></li>
+		  		<li><a href="#ul"> ul </a></li>
+		  		<li><a href="#div"> div </a></li>
+		  		<li><a href="#button"> bouton </a></li>
+		  		<li><a href="#form"> form(Formulaire)</a></li>
+		  		<li><a href="#img"> image(img) </a></li>
+		  		<li><a href="#input"> input </a></li>
+		  		<li><a href="#nav"> nav </a></li>
+		  		<li><a href="#table"> table </a></li>
+		  		<li><a href="#tr"> tr,th td </a></li>
+		  		<li><a href="#select"> select </a></li>
+		  		<li><a href="#fieldset"> fieldset </a></li>
+		  	</p>
+	  </div>
+
+	  <center>
+	  	<table border="1" bgcolor="#F0F4F4">
+			<tr>
+				<th>Elément ou balise</th>
+				<th>Sens sémantique</th>
+			</tr>
+			<tr>
+				<td id="heading"><blockquote><b>< h?></b></blockquote></td>
+				<td>
+				<blockquote><p>
+					Définit des niveau d’importance de titre dans le corps du document</br>
+					Dans une page web, les titres introduisant le contenu dans l'HTML sont signalés par les balises h1, h2,</br>h3, h4, h5 et h6 (h pour "heading" en anglais) et ont deux principales vocations :</br>
+                    préparer la lecture du paragraphe que ces titres précèdent en résumant son contenu. Ils aident ainsi </br>les lecteurs à mieux comprendre ce qu’ils vont lire.</br>
+                    indiquer aux moteurs de recherche les informations les plus importantes que comportent votre page</br>(l'algorithme de Google accorderait plus de poids aux mots clés et expressions que contiennent les </br>titres qu'au reste du contenu)</br>
+ 				</p></blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="paragraphe"><blockquote><b> < p> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                        La balise < p> définit un paragraphe.</br>
+                        L’élément P crée automatiquement un espace avant et après lui.</br>
+                        L’espace est appliqué automatiquement par le navigateur, ou vous pouvez le modifier dans une</br> feuille de style CSS – margin (marge extérieur) et padding (marge intérieur).</br>
+                        Attention à ne pas trop utilisé la balise < p>. Ne pas utiliser cette élément lorsque d’autres</br> éléments sont plus appropriés (liste, définition …).</br>
+                        <b>exemple: </b>< p> La balise P contient et affiche du texte < /p>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="ahref"><blockquote><b> < a > </b></blockquote></td>
+				<td>
+				<blockquote>
+					La balise <b>A</b> permet de définir un lien hypertexte  vers un document en spécifiant l'url de ce
+					</br>document au niveau de l'attribut <b>href</b>. </br>
+					Le tag A peut également définir des ancres au sein d'un document et définir les liens pour y accéder.</br> 
+                    La page définie par le lien hypertexte s'affiche dans la page courante si l'attribut target n'est pas </br>spécifié. Ce tag doit être fermé avec le tag <b>< /A></b>. </br>
+                    Il n'est pas possible de croiser ou d'insérer deux balises l'une dans l'autre. </br>
+                    Ses attributs spécifiques sont :</br>
+                    <ul>
+                    	<li> href :	document cible ouvert lors du clic sur le lien</li>
+                    	<li>hreflang :language du document</li>
+                    	<li>target :indique dans quelle page s'ouvre le document</li>
+                    	<li> title :texte affiché au survol du lien</li>
+                    </ul>
+                    <b>exemple:</b>< a href=" " title="" target="">....< /a>
+                </blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="ul"><blockquote><b> < ul> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p>
+						Balise de fermeture obligatoire. < /ul> </br>
+                        La balise < ul> est une liste non-ordonnée d'une page web xhtml (balise de type BLOC).</br>
+                        Même si la balise < ul> est une balise de type BLOC, elle ne peut contenir que des balises < li>. </br>
+                            <b> exemple:</b></br>
+                                  < p>Voici une liste non-ordonnée :< /p></br>
+                                     < ul></br>
+                                         < li>Le XHTML est accessible< /li></br>
+                                         < li>Le XHTML est bien structurer< /li></br>
+                                         < li>Le XHTML donne un sens à vos page web :< /li></br>
+                                       < ul></br>
+                                          < li>C'est bon pour les internautes</ li></br>
+                                          < li>C'est bon pour les moteurs de recherche< /li></br>
+                                       < /ul></br>
+                                     </ ul></br>
+                     </p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="div"><blockquote><b> < div> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                       Balise de fermeture oblgatoire : < /div> </br>
+                       La balise div est un conteneur qui peut inclure tous les tags html (paragraphes, tables ...,</br> 
+                       et également d'autres divisions).</br>
+                       Elle sert à structurer le document en plusieurs sections.</br>
+                       Elle est l'alternative de la balise table pour ordonner les éléments dans une page et permet</br> d'obtenir des présentations interressantes avec certains style CSS.</br>
+                       <b>exemple:</b> < div style="width:300; height:180; overflow:auto; border:solid 1px black;"> < /div>
+
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="form"><blockquote><b> < form> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                       La balise < form> est utilisée pour créer un formulaire HTML pour la saisie des données </br>utilisateur.Et donc la balise FORM déclare une zone de formulaire dans laquelle il sera possible </br>pour les utilisateurs de saisir des informations qui pourront par la suite être récupérées côté </br>serveur. Il est possible d'utiliser plusieurs formulaires dans une même page à condition de ne pas</br> les imbriquer.Enfin il est impotant de donner une valeur à l'attribut name du formulaire pour y</br> faire référence.Les structures utilisées à l'intérieur d'un formulaire pour échanger des </br>informations sont les éléments :< input> , < textarea> , < button> , < select> , < option> ,</br> < optgroup> , < fieldset> et , < label> ..</br>
+                       	L'élément de formulaire < form> ne doit contenir aucun < form>  imbriqués.</br>
+                       	L'élément de formulaire < form> est de type block et donc il engendre un retour à la ligne avant et</br> après l’élément.</br>
+                       	<b>Les attribut pour la balise form:</b>
+                       	<ul>
+                       		<li>accept:</br>
+                       		     N’est pas pris en charge par HTML5.Spécifie les types de fichiers que le serveur accepte <br>
+                       		     (et qui peuvent être soumises via un téléchargement de fichiers)
+                       		</li>
+                       		<li> accept-charset:</br>
+                                Spécifie le codage de caractères qui doivent être utilisés pour l'envoi du formulaire
+                       		</li>
+                       		<li>
+                       			action:</br>
+                       			Spécifie où envoyer les données du formulaire lors de la soumission d'un formulaire
+                       		</li>
+                       		<li>
+                       			enctype:</br>
+                       			Spécifie comment les données du formulaire doivent être encodées lors de la soumission</br> d'une demande au serveur (uniquement pour la méthode = « post »)
+                       		</li>
+                       		<li>
+                       			method:</br>
+                       			Spécifie la méthode HTTP à utiliser lors de l'envoi des données de formulaire
+                       		</li>
+                       		<li>
+                       			name:</br>
+                       			Spécifie le nom d'un formulaire
+                       		</li>
+                       		<li>
+                       			novalidate:</br>
+                       			Spécifie que le formulaire ne doit être validé lorsque soumis
+                       		</li>
+                       	</ul>
+                       	<b>Exemple:
+                       	</b>< form action="" method="get">
+	                        Nom: < input type="text" name="nom"><br>
+	                        Prénom: < input type="text" name="pnom"><br>
+	                        < input type="submit" >
+	                        < /form>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="button"><blockquote><b> < button> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                       La balise BUTTON permet de créer un contrôle de type bouton. </br>
+                       C'est l'un des différents éléments utilisables au sein d'un formulaire FORM </br>
+                       (au même titre que SELECT, TEXTAREA et INPUT).</br>
+                       Il est possible de placer du code html à l'intérieur de l'élément button.</br>
+                       Ses attributs spécifiques sont :</br>
+                       - accesskey : défini un raccourci clavier simulant le clic</br>
+                       - disabled : rend le bouton non cliquable (apparence grisée)</br>
+                       - type : évènement associé au clic : submit, reset, button</br>
+                       <ul>
+                       	<li>Le type submit valide le formulaire dans lequel il est contenu. Il est équivalent à la fonction</br> javascript submit().</li></br>
+                       	<li>Le type reset efface tous les champs renseignés dans le formulaire (la fonction javascript </br>équivalente existe également).</li></br>
+                       	<li><b>NB:</b> Toujours spécifier l'attribut type pour le bouton.</li></br>
+                       </ul>
+                       <b>Exemple:</b></br>
+                       	< button type="button" style="background:white; cursor:hand; border:solid 1px black;"</br>
+                       	    style="background:white; cursor:hand; border:solid 1px black;"</br>
+                       	    onclick="JavaScript: alert('Bouton Image')"></br>
+                            < img src="../Images/image.gif"></br>
+                        < /button>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="img"><blockquote><b> < img> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                       La balise < img> insère une image dans un HTML page.</br>
+                       Notez que les images ne sont techniquement pas insérés dans une page HTML, les images sont liées</br>
+                       aux pages HTML. </br>
+                       La balise < img> crée un espace dans la page HTML pour l'image référencée.</br>
+                       Balise de fermeture en xHTML la balise doit être fermée comme ceci : < img /></br>
+                       Les extensions les plus fréquentes sont .bmp, .gif et .jpg. Il est possible d'associer à une image</br> un libellé sous forme de tooltip afin de la décrire au survol du curseur. La taille de l'image</br> est également paramétrable et se fait de façon proportionnelle si une seule dimension est </br>spécifiée. </br>
+                       Ses attributs spécifiques sont :</br>
+                       - src : Source de l'image, chemin absolu (http://...) ou relatif.</br>
+                       - alt : Description de l'image</br>
+                       - border : Détermine la bordure de l'image.</br>
+                       - height / width : Défini les dimensions de l'image, utile pour mettre en forme la page durant le</br> chargement des images. </br>
+                       <b>Exemple:</b></br>
+                               < img src="../Images/image.gif" alt="..." border="..." width=".." height=".." />
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="input"><blockquote><b> < input> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                      La balise < input> spécifie un champ de saisie où l'utilisateur peut entrer des données.</br>
+                      Les éléments < input> sont utilisés dans un élément < form> pour déclarer des contrôles d'entrée qui</br> permettent aux utilisateurs d'entrer des données.</br>
+                      Le champ d'entrée < input> a plusieurs variétés  en fonction de l'attribut type voir</br>
+                      le tableau en bas</br>
+                       <b>Exemple:</b></br>
+                             Nom: < input type="text" name="nom"><br>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="nav"><blockquote><b> < nav> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                    La balise < nav> définit un ensemble de liens de navigation.</br>
+                    L'élément < nav> est destiné seulement pour les grands blocs de liens de navigation.</br>
+                    Navigateurs, tels que les lecteurs d'écran pour les utilisateurs handicapés, peuvent utiliser cet</br> élément pour déterminer s'il faut omettre le rendu initial de ce contenu.</br>
+                   <b>Exemple:</b></br>
+                             < nav> </br>
+                                < a href="/html/">HTML< /a> </br>
+                                < a href="/css/">CSS < /a> </br>
+                            < /nav> 
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+
+			<tr>
+				<td id="table"><blockquote><b> < table> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                      La balise TABLE est un conteneur très utilisé; dans les pages web. Elle facilite la mise en forme des</br> informations grâce à son découpage en lignes et cellules complètement paramétrables. Il est</br> nécéssaire d'utiliser les balises TR et TD pour mettre en forme les éléments à afficher dans la</br> table. </br>
+                      D'autres balises peuvent structurer la table, voici toutes ces balises et leur ordre d'apparition :</br>
+                       < TABLE></br>
+                       	< CAPTION>   </br>     
+                       			< TR></br>
+                       				< TH>     </br>                  					                      				  < TD> < /TD></br>
+                       				< /TH></br>
+                       			< /TR></br>
+                       	< /CAPTION></br>
+                       < /TABLE></br>
+
+
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="tr"><blockquote><b> < tr> < th> < td> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                      La balise < tr> définit une rangée dans une table de HTML.</br>
+                      La balise < th> définit une cellule d'en-tête dans une table de HTML.</br>
+                      La balise < td> définit une cellule standard dans une table de HTML.</br>
+                      <ul>
+                      	<li>
+                      		la balise TR est utilisée à l'intérieur de l'élément TABLE (balise de type BLOC). Elle </br>détermine une nouvelle ligne dans celle-ci. Cette balise encadre les cellules TD(ou TH ) qui </br>contiennent les informations qui seront affichées. </br>
+                      	</li>
+                      	<li>
+                      		la balise TH est une cellule d'en-tête d'un tableau de données de la page web xhtml (balise de </br>type en ligne).</br>
+                      	</li>
+                      	<li>
+                      	    la balise TD est utilisée au sein de la balise TR déterminant une ligne dans l'élément TABLE.</br> Elle contient les données et informations à afficher (balise de type en ligne) </br>
+                        </li>
+                      </ul>
+                      	Ses attributs spécifiques sont :</br>
+                           - align : alignement du texte dans la cellule</br>
+                           - valign : alignement vertical des éléments au sein des cellules</br>
+                           - colspan : nombre de colonnes utilisées par la cellule</br>
+                           - rowspan : nombre de lignes utilisées par la cellule</br>
+                           - nowrap : empêche le retour à la ligne au sein de la cellule</br>
+                           - background : Image de fond de la cellule</br>
+                           - bgcolor : Couleur de fond de la cellule</br>
+                           - bordercolor : Couleur des bordures de la ligne</br>
+                           - bordercolordark : Couleur de la bordure sombre de la ligne (côté haut et côté gauche des</br> cellules) </br>
+                           - bordercolorlight : Couleur de la bordure claire de la ligne </br>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td id="select"><blockquote><b> < select> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+                     La balise < select> est une liste déroulante d'une page web xhtml (balise de type EN LIGNE).</br>
+                     La balise < select> s'utilise avec les balises < option> et < optgroup> (optionnelle). </br>
+                     Cette balise n'est pas obligatoirement intégrée à un formulaire. </br>
+                     La balise SELECT permet de créer une liste déroulante ou à choix multiples. C'est l'un des différents</br> contrôles utilisables au sein d'un formulaire FORM pour rapatrier des informations</br>
+                     (au même titre que BUTTON, TEXTAREA et INPUT). Elle encadre les valeurs de la liste qui sont</br>
+                      définies dans les tags OPTION. Ses attributs spécifiques sont :</br>
+                     - disabled : rend le contrôle passif, non modifiable.</br>
+                     - multiple : autorise la sélection multiple d'éléments de la liste.</br>
+                     - size : définit le nombre de valeurs visibles.</br>
+                     L'évènement OnChange est également spécifique à la balise select. Il est déclenché lorsque</br> l'utilisateur change la valeur sélectionnée dans la liste. </br>
+                       <b>Exemple:</b></br>
+                            < select></br>
+                                 < optgroup label="europe"></br>
+                                           < option>France< /option></br>
+                                           < option>Angleterre< /option></br>
+                                 < /optgroup></br>
+                                 < optgroup label="afrique"></br>
+                                           < option>Algérie< /option></br>
+                                           < option>Maroc< /option></br>
+                                 </optgroup></br>
+                            </ select></br>
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+	<tr>
+				<td id="fieldset"><blockquote><b> < fieldset> </b></blockquote></td>
+				<td>
+				<blockquote>
+					<p> 
+						La balise FIELDSET a été implémentée pour structurer les fomulaires.</br>
+						Elle permet de grouper de manière visuelle les champs qu'elle inclue.</br>
+						En utilisant la balise LEGEND qui lui est prop, il est possible d'attribuer un titre à ce groupe.</br>
+						Le but de la balise fieldset est de pouvoir découper un formulaire en catégories, pour le rendre</br> plus lisible. Par défaut le tag fieldset pnd toute la largeur disponible. Pour limiter sa taille,</br> il faut spécifier au niveau de l'attribut style la valeur de sa largeur avec l'élément width,</br> ou en Utilisant le CSS.
+						<b>Exemple:</b> <br /> 
+						< form>  <br /> 
+							< fieldset>  <br /> 
+									Prenom: < input type="text" size="30" /> <br />
+							< /fieldset> <br /> 
+                        < /form>
+
+					</p>
+ 				</blockquote>
+				</td>
+			</tr>
+		</table>
+	  </center>
+	
+
+ 	</blockquote>
+	</body>
+
+</html>
